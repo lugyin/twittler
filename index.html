@@ -28,6 +28,8 @@
 
       $('.newTweets').on('click', function() {
         showTweets(streams.home);
+
+        
         $('.username').on('click', function() {
           showTweets(streams.users[$(this).text().toString()]);
         });
